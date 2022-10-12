@@ -15,6 +15,8 @@
     overflow-x: hidden;
     background: black;
     color: white;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -23,20 +25,6 @@ li {
 }
 
 
-
-
-
-.container{
-    width: 85vw;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    color: white;
-}
 .platform{
     height: 350px;
     width: 350px;
