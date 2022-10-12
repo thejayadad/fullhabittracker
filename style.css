@@ -1,0 +1,123 @@
+
+
+
+ /* Standard */
+ html, body {
+    height: 100%;
+ }
+ body{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-x: hidden;
+    background: black;
+    color: white;
+
+
+}
+li {
+    list-style: none;
+}
+
+
+
+
+
+.container{
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    color: white;
+}
+.platform{
+    height: 350px;
+    width: 350px;
+    display: grid;
+    grid-template-columns: 50px 200px;
+    overflow: hidden;
+    background: #131315;
+    color: white;
+    box-shadow: 0  15px 25px rgba(16, 147, 234, 0.7);
+    cursor: pointer;
+    gap: 8px;
+
+}
+ /* Standard End */
+ /* Header Start */
+
+
+header{
+    grid-column: 1 / 2;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 25px;
+
+}
+ul li {
+    margin: 10px;
+
+}
+
+
+li a i{
+    font-size: 2rem;
+    color: #222;
+    cursor: pointer;
+}
+.links{
+    padding: 6px;
+
+}
+.links:hover a i{
+    color:   rgba(16, 147, 234, 0.7);
+}
+
+ /* Header End */
+
+  /* Main Start */
+
+
+  main{
+    grid-column: 2 / 3;
+
+}
+
+/* Habit Card Start */
+.card{
+    width: 280px;
+    background: #242026;
+    gap: 10px;
+    border-radius: 10px;
+}
+.card:hover{
+    box-shadow: 0  15px 25px rgba(16, 147, 234, 0.7);
+    transform: scale(1.05);
+
+}
+.habits {
+    display: flex;
+    margin-left: -28px;
+    justify-content: space-around;
+}
+
+.title {
+    width: 280px;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: rgba(16, 147, 234, 0.7);
+
+}
+
+/* Habit Card End */
+
+
+   /* Main End */
