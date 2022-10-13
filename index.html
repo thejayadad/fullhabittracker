@@ -7,45 +7,42 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <!-- CSS only -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-        <div class="platform">
-        <header>
-            <nav>
-                <ul>
-                    <li class="links"><a href="/"><i class="fas fa-home"></i></a></li>
-                    <li class="links"><a href="/new"><i class="fas fa-plus-circle"></i></a></li>
-                    <li class="links"><a href="/goal"><i class="fas fa-bullseye"></i></a></li>
-                </ul>
-            </nav>
+<div class="platform">
+    <header>
+        <nav>
+            <ul>
+                <li class="links"><a href="/"><i class="fas fa-home"></i></a></li>
+                <li class="links"><a href="/new"><i class="fas fa-plus-circle"></i></a></li>
+                <li class="links"><a href="/goal"><i class="fas fa-bullseye"></i></a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-    <div class="title">
-        <ul class="habits">
-            <li class="items">Habit</li>
-            <li class="items">Count</li>
-            <li class="items">Category</li>
-
-        </ul>
-    </div>
-        <div class="card">
-              <ul class="habits">
-                <li class="items">running</li>
-                <li class="items">30</li>
-                <li class="items">fitness</li>
-
+        <div class="title">
+            <ul class="habits">
+                <li class="items">Habit</li>
+                <li class="items">Count</li>
+                <li class="items">Category</li>
             </ul>
         </div>
         <div class="card">
             <ul class="habits">
-                <li class="items">JavaScript</li>
-                <li class="items">60</li>
-                <li class="items">study</li>
+                <li class="items">Running</li>
+                <li class="items">30</li>
+                <li class="items">fitness</li>
             </ul>
         </div>
-
+        <div class="data">
+            <canvas class="chart" id="myChart"></canvas>
+        </div>
     </main>
 </div>
+
+
+
 </body>
 </html>

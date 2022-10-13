@@ -20,11 +20,10 @@
 
 
 }
+
 li {
     list-style: none;
 }
-
-
 .platform{
     height: 350px;
     width: 350px;
@@ -33,63 +32,49 @@ li {
     overflow: hidden;
     background: #131315;
     color: white;
-    box-shadow: 0  15px 25px rgba(16, 147, 234, 0.7);
+    box-shadow: 0 15px 25px rgba(16, 147, 234, .7);
     cursor: pointer;
     gap: 8px;
-
 }
  /* Standard End */
  /* Header Start */
-
-
 header{
     grid-column: 1 / 2;
     align-items: center;
     display: flex;
     justify-content: space-around;
     margin-right: 25px;
-
 }
 ul li {
     margin: 10px;
-
 }
-
-
-li a i{
+ul a i {
     font-size: 2rem;
     color: #222;
     cursor: pointer;
 }
-.links{
-    padding: 6px;
-
-}
-.links:hover a i{
-    color:   rgba(16, 147, 234, 0.7);
+.links:hover a i {
+    color: rgba(16, 147, 234, .7);
 }
 
  /* Header End */
 
   /* Main Start */
-
-
-  main{
-    grid-column: 2 / 3;
-
+main {
+    grid-column:  2 / 3;
 }
 
 /* Habit Card Start */
-.card{
+
+.card {
     width: 280px;
     background: #242026;
     gap: 10px;
     border-radius: 10px;
 }
 .card:hover{
-    box-shadow: 0  15px 25px rgba(16, 147, 234, 0.7);
+    box-shadow: 0 15px 25px rgba(16, 147, 234, .7);
     transform: scale(1.05);
-
 }
 .habits {
     display: flex;
@@ -100,10 +85,10 @@ li a i{
 .title {
     width: 280px;
     gap: 10px;
+    background-color: rgba(16, 147, 234, .7);
     border-radius: 10px;
-    background-color: rgba(16, 147, 234, 0.7);
-
 }
+
 
 /* Habit Card End */
 
